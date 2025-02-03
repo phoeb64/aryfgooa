@@ -1,0 +1,10 @@
+body {
+    zoom: 200%;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif;
+}
+
+p1 {
+    font-size: 10px;
+}

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .logo {
+    max-width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1.5rem; /* Add spacing below the image */
+    border-radius: 10px; /* Optional for rounded edges */
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .buttons a:hover {
+    background-color: #575757;
+    color: #ffcc00;
+  }
+  
